@@ -1,0 +1,40 @@
+ 
+questions = [
+    {
+        "question": "What is the capital of France?",
+        "options": ["A) Berlin", "B) Paris", "C) Rome", "D) Madrid"],
+        "answer": "B"
+    },
+    {
+        "question": "Which language is used for web apps?",
+        "options": ["A) Python", "B) Java", "C) HTML", "D) C++"],
+        "answer": "C"
+    },
+    {
+        "question": "Who developed Python?",
+        "options": ["A) Dennis Ritchie", "B) Guido van Rossum", "C) James Gosling", "D) Bjarne Stroustrup"],
+        "answer": "B"
+    }
+]
+
+
+def run_quiz():
+    print("🧠 Welcome to the Quiz Game!\n")
+    score = 0
+
+    for idx, q in enumerate(questions):
+        print(f"Q{idx + 1}: {q['question']}")
+        for opt in q['options']:
+            print(opt)
+        answer = input("Your answer (A/B/C/D): ").strip().upper()
+        
+        if answer == q['answer']:
+            print("✅ Correct!\n")
+            score += 1
+        else:
+            print(f"❌ Wrong! Correct answer is {q['answer']}\n")
+
+    print(f"🎉 Quiz Complete! Your Score: {score}/{len(questions)}")
+
+if __name__ == "__main__":
+    run_quiz()
