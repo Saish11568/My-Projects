@@ -11,6 +11,10 @@ Each folder in this repo represents a standalone project. These are small, begin
 ### ✅ Project 1: Quiz App (MCQ Game)
 🎯 A simple terminal-based quiz game in Python that asks multiple-choice questions and tracks your score
 
+---
+### ✅ Project 2:Typing Speed Tester
+🧾 A GUI-based Typing Speed Tester built with Python using tkinter. It displays a random sentence and calculates typing speed (WPM) and accuracy.
+
 
 
 ### 🧠 Why This Repo?
