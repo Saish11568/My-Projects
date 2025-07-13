@@ -17,6 +17,9 @@ Each folder in this repo represents a standalone project. These are small, begin
 
 
 
+
+
+
 ### 🧠 Why This Repo?
 This is my personal coding streak and a space to document my progress as a developer. Whether it's a guessing game in Python or a simple webpage in HTML, every project teaches something new.
 
