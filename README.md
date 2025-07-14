@@ -16,13 +16,9 @@ Each folder in this repo represents a standalone project. These are small, begin
 🧾 A GUI-based Typing Speed Tester built with Python using tkinter. It displays a random sentence and calculates typing speed (WPM) and accuracy.
 
 
-
-
-
-
+---
 ### 🧠 Why This Repo?
 This is my personal coding streak and a space to document my progress as a developer. Whether it's a guessing game in Python or a simple webpage in HTML, every project teaches something new.
 
----
 
-Thanks for checking out my work! Stay curious 🌱
+
